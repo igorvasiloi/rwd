@@ -1,0 +1,24 @@
+{
+  "name": "rwd",
+  "version": "1.0.0",
+  "description": "responsive web design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --output-style compressed index.scss > styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorvasiloi/rwd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igorvasiloi/rwd/issues"
+  },
+  "homepage": "https://github.com/igorvasiloi/rwd#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
